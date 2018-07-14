@@ -12,7 +12,7 @@ public class JoinPrime {
 
     public static void main(String[] args) throws Exception {
         int num = 0;
-        File file = new File("D:\\prime.txt");
+        File file = new File("prime.txt");
         if (file.exists() && file.isFile()) {
             System.out.println("找到该文件");
 

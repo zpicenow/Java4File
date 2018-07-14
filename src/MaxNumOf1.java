@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 
 public class MaxNumOf1 {
     public static void main(String[] args) throws IOException {
-        File fileTxt = new File("D:\\a.txt");
+        File fileTxt = new File("a.txt");
         if (fileTxt.exists() && fileTxt.isFile()) {
             System.out.println("文件已存在");
         } else {
