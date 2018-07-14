@@ -105,8 +105,8 @@ public class MyFile {
 
     }
     public MyFile(String pathname) {
-        fileName = pathname.substring(pathname.lastIndexOf('\\') + 1, pathname.length());
-        filePath = pathname.substring(0, pathname.lastIndexOf('\\'));
+        fileName = pathname.substring(pathname.lastIndexOf(File.separator) + 1, pathname.length());
+        filePath = pathname.substring(0, pathname.lastIndexOf(File.separator));
         fileSize = new File(pathname).length();
 
     }

@@ -30,7 +30,7 @@ public class Dictionary {
         PrintWriter printWriter = new PrintWriter(file);
         String s = null;
         boolean b = true;
-        System.out.println("=====================请选择===============\n1\t存单词解释；\n2\t查询单词\n3\t退出");
+        System.out.println("微词典fromDUTZhaoPeng\n=====================请选择===============\n1\t存单词解释；\n2\t查询单词\n3\t退出");
 
             while ((s = bufferedReader.readLine()) != null) {
 
