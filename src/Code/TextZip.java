@@ -12,8 +12,8 @@ import java.util.*;
 
 public class TextZip {
 
-	//ID, 该学号的值需要修改!
-	private static final String ID = "201692185";
+
+	private static final String ID = "user";
 	private static Map<Character, String> value_table = new HashMap<Character, String>();
 
 	/**
